@@ -5,20 +5,42 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
     <title>PassWord Generator</title>
 </head>
 <body>
-
+    <div class="container">
+    <h1 class="h1">PassWord Generator</h1>
+    <div class="password">
     
+    <input type="text" id="password" readonly>
+    <button type="button" class="btn btn-success" id="generate">Generate PassWord</button>
+
+    </div>
+
+    <div class="options">
+         <label for="lenght">PassWord Lenght</label>
+         <input type="number" id="lenght" value="8" min="8" max="64">
+         
+         <label for="lowercase">Include LowerCase</label>
+         <input type="checkbox" id="lowercase" checked>
+
+         <label for="uppercase">Include UpperCase</label>
+         <input type="checkbox" id="uppercase" checked>
+
+         <label for="numbers">Include Numbers</label>
+         <input type="checkbox" id="numbers" checked>
+
+         <label for="symbols">Symbols</label>
+         <input type="checkbox" id="symbols" checked>
+    </div>
 
 
 
 
 
-
-
-
-
+    </div>
+    <script src="app.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js" integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+" crossorigin="anonymous"></script>
 </body>
