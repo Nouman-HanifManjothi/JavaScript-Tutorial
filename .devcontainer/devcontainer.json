@@ -23,7 +23,8 @@
 				"vscode-icons-team.vscode-icons",
 				"wayou.vscode-todo-highlight",
 				"Youssef.viow",
-				"ritwickdey.LiveServer"
+				"ritwickdey.LiveServer",
+				"AnbuselvanRocky.bootstrap5-vscode"
 			],
 			"settings": {
 				"editor.fontSize": 24,
