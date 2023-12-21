@@ -1,0 +1,63 @@
+body{
+    display: flex;
+    justify-content: center;
+    height: 50vh;
+    align-items: center;
+    background-color: #994D1C;
+
+}
+
+
+.age-calculator{
+    width: 800px;
+    margin: 0 auto;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #F4DFC8;
+    backdrop-filter: blur(50px) !important;
+    box-shadow:0px 0px 10px rgba(0, 0, 0, 10);
+    border-radius: 10px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+label{
+    display: block;
+    margin-bottom: 10px;
+    font-size: 24px;
+
+}
+
+
+input[type="date"]{
+    padding: 5px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    width: 400px;
+    margin-bottom: 20px;
+}
+
+
+button{
+    padding: 8px 16px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: none;
+    background-color: #FAEED1 !important;
+    /* cursor: pointer; */
+    transition: background-color 0.3ms ease;
+
+
+}
+
+button:hover{
+    background-color: #BBAB8C !important;
+}
+
+#result{
+    margin-top: 20px;
+    font-size: 18px;
+}
